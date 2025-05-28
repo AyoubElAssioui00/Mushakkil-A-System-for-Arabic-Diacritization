@@ -81,31 +81,50 @@ While HMMs are simpler and computationally less expensive than deep learning mod
 The HMM-related components of the Mushakkil project are organized as follows:
 
 Mushakkil/
+
 ├── Algorithms/
+
 │ └── HMM.py # Core HMM class (training, Viterbi, DER calculation)
+
 ├── constants/
+
 │ ├── ARABIC_LETTERS_LIST.pickle
+
 │ ├── CLASSES_LIST.pickle
+
 │ └── DIACRITICS_LIST.pickle # Pre-defined lists for letters, diacritics
+
 ├── Data/
+
 │ └── HMM.py # Scripts for HMM data loading, cleaning, splitting
+
 ├── Inference/
+
 │ └── HMM.py # Script to run diacritization using a trained HMM model
+
 ├── models/
+
 │ └── arabic_diacritization_hmm.pkl # Example placeholder for a saved HMM model
+
 ├── Train/
+
 │ └── HMM.py # Script to train an HMM model
+
 ├── Visualization/
+
 │ └── HMM.py # Script for visualizing HMM data characteristics
+
 ├── test.ipynb # Jupyter notebook for general testing/experiments
+
 └── README.md # This file
+
 
 
 ## Getting Started
 
 ### Prerequisites
 
-*   Python 3.7+
+*   Python 3.10
 *   `requirements.txt` 
 
 ### Installation
